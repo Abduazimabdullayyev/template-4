@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.section-title {
+  text-align: center;
+  margin: 40px 30px;
+}
+.section-title .logo {
+  margin: 20px 0px;
+  font-family: sans-serif;
+}
+.section-title .logo span {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 5px;
+}
+
+section {
+  display: flex;
+  gap: 2rem;
+  padding: 20px;
+}
+section .box-1 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5058823529);
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+section .box-1 img {
+  width: 100%;
+}
+section .box-1 .box-text {
+  padding: 0px 15px;
+  flex-direction: column;
+}
+section .box-1 .box-text h1 {
+  padding: 10px 0px;
+}
+section .box-1 .box-text p span {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.2549019608);
+}
+section .box-1 .box-text .box-paragraf {
+  padding: 20px 0px;
+}
+section .box-1 div {
+  display: flex;
+  justify-content: space-between;
+}
+section .box-1 div button {
+  border: 1px solid rgba(0, 0, 0, 0.3215686275);
+  padding: 15px 7px;
+  background-color: transparent;
+}
+section .box-1 div button:hover {
+  background-color: #dcdcdc;
+}
+section .box-1 div p b {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 5px;
+}
+section .col-30 .box-2 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5058823529);
+}
+section .col-30 .box-2 img {
+  width: 100%;
+}
+section .col-30 .box-2 h1 {
+  padding: 5px 10px;
+}
+section .col-30 .box-2 p {
+  padding: 5px 10px;
+}
+section .col-30 .box-3 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5058823529);
+  margin-top: 30px;
+}
+section .col-30 .box-3 h1 {
+  padding: 20px;
+  background-color: #dcdcdc;
+}
+section .col-30 .box-3 .inbox-3 {
+  display: flex;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.1764705882);
+  align-items: center;
+  padding: 15px;
+}
+section .col-30 .box-3 .inbox-3 div {
+  padding-left: 20px;
+}
+section .col-30 .box-3 .inbox-3 div p {
+  padding: 5px 0px;
+}
+section .col-30 .box-3 .inbox-3 img {
+  width: 60px;
+}
+section .col-30 .box-3 .inbox-3:hover {
+  background-color: rgba(51, 51, 51, 0.1764705882);
+}
+section .col-30 .box-4 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5058823529);
+  margin-top: 30px;
+}
+section .col-30 .box-4 h1 {
+  background-color: #dcdcdc;
+  padding: 20px;
+}
+section .col-30 .box-4 div {
+  display: flex;
+  gap: 0.6rem;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+section .col-30 .box-4 div p {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+}
+section .col-30 .box-4 div span {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.1450980392);
+}
+@media screen and (max-width: 1024px) {
+  section {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  section #inbox-3 {
+    display: none;
+  }
+}
+
+footer {
+  background-color: #616161;
+  padding: 60px 10px;
+}
+footer .btn {
+  background-color: #333;
+  border: none;
+  padding: 15px 20px;
+  cursor: not-allowed;
+}
+footer button {
+  background-color: #000;
+  border: none;
+  padding: 15px 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+footer p {
+  color: #fff;
+}
+footer p a {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
